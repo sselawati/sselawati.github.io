@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title style="font-family:Arial, Helvetica, sans-serif">RELASI DAN FUNGSI</title>
+	<style type="text/css"> 
+        body {
+        background-color:ghostwhite;
+        }
+
+        .float-kiri {
+            float:left ;
+          }
+    </style>        
+</head>
+
+<body>
+	
+	<h1 style="text-align:center;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 80px; margin-left: 50px; margin-right: 50px; margin-bottom: 80px" >RELASI DAN FUNGSI
+        <br>
+        <br>
+        <img src ="https://edumasterprivat.com/wp-content/uploads/2020/12/gambar-kartun-belajar-matematika.png" style= "position:relative; margin: auto;">
+    
+     </h1>
+     <br>
+     <br>
+     <h2 style="text-align:center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin:50px; position: relative">SELAWATI
+     <br>
+     <br>
+     DR. AAN HENDRAYANA</h2>
+     <br>
+     <br>
+     <h2 style="text-align:center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin:50px; position: relative">UNTIRTA PRESS</h2>
+     
+     <br>
+     <br>
+    <hr> 
+    <br>
+    <br>
+    <h2 style="margin:15px; ; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px" id="KATA_PENGANTAR">KATA PENGANTAR</h2>
+      <p style="text-align:justify; margin: 50px;font-family: Arial, Helvetica, sans-serif">Puji syukur kita panjatkan selalu kepada Tuhan Yang Maha Esa atas Rahmat dan Hidayah yang diberikan sehingga saya bisa membuat buku ajar untuk materi Relasi dan Fungsi untuk siswa Sekolah Menengah Pelajar. Tujuan dari penulisan buku ini tidak lain untuk membantu para siswa dalam memahami materi Relasi dan Fungsi yang harus mereka pelajari dan pahami selama berada ditingkat Sekolah Menengah Pelajar.
+      <br>
+      <br>
+      Penulisan buku ini bukan merupakan hasil kerja keras saya sendiri. Ada banyak pihak yang berjasa dalam penulisan buku ini. Maka dari itu, saya mengucapkan banyak terimakasih kepada Dr. Aan Hendraya selaku dosen pengampu mata kuliah Pengembangan Multimedia Matematika yang telah membantu memberikan wawasan dan bimbingan saya sebelum maupun ketika menulis buku panduan ini.
+      <br>
+      <br>
+      Saya sadar bahwa buku yang saya buat masih belum bisa dikatakan sempurna. Maka dari itu, saya meminta dukungan dan masukan dari para pembaca, agar kedepannya kami bisa lebih baik di dalam menulis sebuah buku.
+      </p>
+        <br>
+        <br>
+        <br>
+
+      <p style="margin: 50px;font-family: Arial, Helvetica, sans-serif;text-align: right">Tangerang, 14 Maret 2022</p>
+        <br>
+        
+        <p style="margin:50px; font-family:Arial, Helvetica, sans-serif; text-align: right">Selawati</p> 
+
+
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <h2 style="margin:15px; color:black; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px" id="DAFTAR_ISI">DAFTAR ISI</h2>
+        <ul style="margin:50px;font-family:Arial, Helvetica, sans-serif">
+          <li> <a href="#KATA_PENGANTAR">KATA PENGANTAR</a></li>
+          <br>
+          <li><a href="#DAFTAR_ISI">DAFTAR ISI</a></li>
+          <br>
+          <li><a href="#PENDAHULUAN">PENDAHULUAN</a></li>            
+          	<p> <a href="#Sekilas_Konsep">Sekilas Konsep</a></p>
+            <p><a href="#Latar_Belakang">Latar Belakang</a></p>
+          
+          <li><a href="#PETA_KONSEP">PETA KONSEP</a></li>
+          <br>
+          <li><a href="#RELASI">RELASI</a>
+            <p><a href="#Pengertian_Relasi">1.	Pengertian Relasi</a></p>
+            <p><a href="#Diagram_Panah">2.	Diagram Panah</a></p>
+            <p><a href="#Diagram_Cartesius">3.	Diagram Cartesius</a></p>
+            <p><a href="#Himpunan_Pasangan_Berurutan">4.	Himpunan Pasangan Berurutan</a></p>
+          </li>
+         
+          <li><a href="#LATIHAN_RELASI">LATIHAN RELASI</a></li>
+          <br>
+          <li><a href="#EVALUASI_RELASI">EVALUASI RELASI</a></li>
+          <br>
+          <li><a href="#RINGKASAN_RELASI">RINGKASAN RELASI</a></li>
+          <br>
+          <li><a href="#FUNGSI">FUNGSI</a>
+            <p><a href="#Pengertian_Fungsi_atau_Pemetaan">1.	Pengertian Fungsi atau Pemetaan</a></p>
+            <p><a href="#Domain,_Kodomain,_dan_Range_Fungsi">2.	Domain, Kodomain, dan Range Fungsi</a></p>
+            <p><a href="#Grafik_Fungsi">3.	Grafik Fungsi</a></p>
+            <p><a href="Notasi_Fungsi">4.	Notasi Fungsi</a></p>
+            <p><a href="#Nilai_Fungsi">5.	Nilai Fungsi</a></p>
+            <p><a href="#Rumus_Fungsi">6.	Rumus Fungsi</a></p>
+          </li>
+          
+          <li><a href="#LATIHAN_FUNGSI">LATIHAN FUNGSI</a></li>
+          <br>
+          <li><a href="#EVALUASI_FUNGSI">EVALUASI FUNGSI</a></li>
+          <br>
+          <li><a href="#RINGKASAN_FUNGSI">RINGKASAN FUNGSI</a></li>
+          <br>
+          <li><a href="#DAFTAR_PUSTAKA">DAFTAR PUSTAKA</a></li>
+          <br>
+
+          
+        </ul>
+      <br>
+      <br>
+      <hr>
+      <br>
+        <br>
+
+      <h2 style="margin:50px; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px;" id="PENDAHULUAN">PENDAHULUAN</h2>
+        <h2 style="margin: 30px 50px; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" id="Sekilas_Konsep">Sekilas Konsep</h2>
+         <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Relasi dan Fungsi adalah salah satu materi dalam mata pelajaran Matematika yang ada pada jenjang sekolah menengah pertama. Pada materi ini, peserta didik diharapkan dapat mengetahui tentang berbagai macam materi yang ada pada relasi dan fungsi serta mampu menyelesaikan permasalahan yang berkaitan dengan relasi dan fungsi.
+          <br>
+          <br>
+          </p>
+         <h2 style="margin: 30px 50px; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" id="Latar_Belakang">Latar Belakang</h2>
+         <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Buku ini adalah buku pembelajaran Relasi dan Fungsi. Relasi dalam matematika adalah aturan yang menghubungkan antara anggota satu himpunan dengan anggota himpunan lainnya. Sedangkan fungsi adalah relasi khusus yang memetakan setiap anggota himpunan A ke tempat satu ke anggota himpunan B.
+         	<br>
+         	<br>
+         	Fungsi dan relasi adalah bagian dari pelajaran matematika, dimana fungsi dan relasi ini saling berhubungan satu dengan yang lain. Dalam banyak hal, fungsi diterapkan dalam berbagai bidang untuk menyelesaikan persoalan-persoalan baikdalam bidang tehnik, ekonomi dan bidang lain yang mempelajari hubungan-hubungan antar variabel, dimana variabel satu sama lainnya saling mempengaruhi dan dapat diukur, seperti jarak dan waktu dapat diukur, sehingga dapat dikatakan bahwa jarak adalah fungsi dari waktu. Di dalam fungsi dan relasi ada yang namanya daerah asal, daerah kawan, dandaerah hasil. Daerah asal disebut domain, daerah kawan disebut kodomain, sedangkan daerah hasil disebut range.
+         	<br>
+         	<br>
+         	Buku ini membahas tentang Relasi dan Fungsi untuk kegiatan pembelajaran Sekolah Menengah Pelajar. Setelah mempelajari buku ini, anda diharapkan dapat menjawab, memecahkan, serta menerapkan konsep Relasi Dan Fungsi dalam kehidupan sehari-hari.
+          </p>
+
+
+        <br>
+        <br><br><br>
+        <hr>
+        <br>
+        <br>
+        
+    <h2 style="margin:15px; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px" id="PETA_KONSEP">PETA KONSEP
+        <br>
+        <br>
+        <br>
+      <img src="https://i.pinimg.com/564x/6b/26/1b/6b261b83dc0bc01f6a949a69d8900d70.jpg" style="position:relative; margin: auto" >
+    </h2>
+     <br>
+     <br>
+     <hr>
+           <br>
+        <br>
+
+      <h2 style="margin:50px; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px;" id="RELASI">RELASI</h2>
+        <h2 style="margin: 30px 50px; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" id="Pengertian_Relasi">1.	Pengertian Relasi</h2>
+         <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Pak Jardin mempunyai lima orang anak, yaitu Xean, Ex, Lucy, By, dan Loyd. Masing-masing anak menyukai buah yang berbeda beda. Xean suka apel. Ex suka apel dan anggur. Lucy suka strawberry. By suka jeruk. Sedangkan Loyd mempunyai kesukaan yang sama yaitu Melon.
+          <br>
+          <br>
+          <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:center;">
+          <img src="https://i.pinimg.com/564x/42/b9/88/42b98810ae668b3f7ad08bea383ac997.jpg" style="position:relative; margin: auto" >
+          <br>
+          <br></p>
+          
+          <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify"> Jika anak Pak Jardin dikelompokkan menjadi satu dalam himpunan A, maka anggota dari himpunan A adalah Xean, Ex, Lucy, By, dan Loyd. Himpunan A tersebut kita tuliskan sebagai
+          <br><br>
+          A = { Xean, Ex, Lucy, By, Loyd}
+          <br><br>
+          Sedangkan jenis buah yang disukai anak-anak Pak Jardin dapat dikelompokkan dalam himpunan B. Himpunan B dituliskan 
+          <br><br>
+          B = {Apel, Anggur, Strawberry, Jeruk, Melon}
+          <br><br>
+Terhadap kesukaan anak-anak Pak Jardin, terdapat hubungan antara himpunan A dan himpunan B. Hubungan tersebut berkait dengan buah kesukaan dari anak-anak Pak Jardin.
+<br><br>
+Xean suka apel <br>
+	<br>Ex suka apel dan anggur <br>
+	<br>Lucy suka strawberry	<br>
+		<br>By suka jeruk<br>
+	<br>Loyd suka melon<br>
+
+<br>
+Apabila suka buah kita notasikan dengan tanda panah, pernyataan-pernyataan di atas dapat digambarkan sebagai 
+<br>
+<br>
+<img src="https://i.pinimg.com/564x/49/fd/20/49fd201ea025faeada0b1d440b363dad.jpg" style="position:relative; margin: auto" >
+<br>
+<br>
+Kita melihat antara anggota himpunan A dan anggota  himpuna B memiliki hubungan (relasi) suka buah. Selanjutnya kita katakan terdapat relasi antara anggota himpunan A dan anggota himpunan B, atau sering juga disebut relasi dari himpunan A ke himpunan B.
+<br><br>
+Dari uraian  di  atas,  dapat  disimpulkan  bahwa  :
+Relasi dari himpunan A ke himpunan B adalah aturan yang memasangan anggota himpunan A dan anggota himpunan B dengan aturan tertentu.
+<br>
+<br>
+          </p>
+         <h2 style="margin: 30px 50px; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" id="Diagram_Panah">2.	Diagram Panah</h2>
+         <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Diagram panah adalah diagram yang menggambarkan hubungan antara dua himpunan dengan disertai tanda panah. 
+         	<br><br>
+         	Sekarang, mari kita buat himpunan yang berisi siswa dan himpunan yang berisi kota asal. Misal himpunan P menyatakan himpunan siswa, dan Q menyatakan himpunan kota asal. Himpunan P mempunyai anggota Clai, Chav, Marc, dan Ezi dan dituliskan dengan  P  =  { Clai, Chav, Marc, Ezi}, sedangkan himpunan Q adalah {Surabaya, Bogor, Jakarta}. 
+         	<br><br>
+         	Jika kita tentukan relasi atau hubungan antara himpunan P dengan himpunan Q sebagai siswa dari, maka Clai dihubungkan dengan surabaya, artinya Clai berasal dari bogor, Chav dihubungkan dengan bogor, artinya Chav berasal dari bogor. Sedangkan Marc dan Ezi dihubungkan dengan jakarta, artinya Marc dan Ezi berasal dari jakarta. Hubungan antara anggota-anggota himpunan P dan Q dapat digambarkan sebagai berikut :
+          <br>
+          <br>
+          <img src="https://i.pinimg.com/564x/d8/03/30/d803300e2e31de23a4c08cfd468e2dec.jpg" style="position:relative; margin: auto" >
+          <br>
+          <br>
+            </p>
+<h2 style="margin: 30px 50px; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" id="Diagram_Cartesius">3.	Diagram Cartesius</h2>
+         <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Dalam menyatakan relasi antara anggota-anggota dua himpunan, selain dengan menggunakan diagram panah dapat juga dinyatakan dalam Diagram Cartesius. Jika kita menyebut kata “Cartesius”, yang kita ingat adalah bidang Cartesius yang mempunyai dua sumbu, yaitu sumbu mendatar dan sumbu tegak. Demikian juga pada Diagram Cartesius, terdapat dua sumbu yang saling tegak lurus yaitu sumbu mendatar atau horisontal dan sumbu tegak atau vertikal.
+         	<br><br>
+         	Pada Gambar di atas, kita dapat menyatakan relasi antara anggota himpunan A dan anggota himpunan B tersebut dalam koordinat Cartesius.
+         	<br><br>
+         	Nama anggota-anggota himpunan A diletakkan pada sumbu mendatar dan nama anggota-anggota B diletakkan pada sumbu tegak. Setiap anggota himpunan A yang berelasi dengan anggota himpunan B dapat dinyatakan dengan noktah (•). Jadi Diagram Cartesius dari relasi tersebut adalah :
+          <br>
+          <br>
+          <img src="https://i.pinimg.com/564x/b1/56/7a/b1567af6682a35279ca6e938b8f71625.jpg" style="position:relative; margin: auto" >
+          <br>
+          <br>
+            </p>
+          <h2 style="margin: 30px 50px; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" id="Himpunan_Pasangan_Berurutan">4.	Himpunan Pasangan Berurutan</h2>
+         <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Himpunan Pasangan Berurutan dilambangkan dengan (x,y) dengan x menyatakan anggota suatu himpunan tertentu, sebut A, dan y menyatakan anggota dari himpunan lain, sebut B. Pada bagian ini kita akan menyatakan relasi sebagai himpunan pasangan berurutan (x,y). Pada bagian sebelumnya, relasi antara anggota dua himpunan dapat dinyatakan dengan diagram panah dan dalam diagram cartesius. Kita akan mengambil contoh pada Gambar, dan menyatakannya sebagai pasangan berurutan. Pada relasi buah kesukaan di atas,  kita  memiliki  himpunan  anak Pak Jardin  A  = { Xean, Ex, Lucy, By, Loyd}, dan himpunan  buah B = {Apel, Anggur, Strawberry, Jeruk, Melon}.
+         	<br><br>
+         	Berdasarkan Gambar, relasi buah kesukaan dituliskan sebagai C = {(Xean, Apel), (Ex, Apel), (Ex, Anggur), (Lucy, Strawberry), (By, Jeruk) , (Loyd, Melon)}.
+         	<br><br>
+         	Relasi antara himpunan X dan Y dapat dinyatakan sebagai himpunan pasangan berurutan (x, y) dengan x anggota himpunan pertama (X) dan y anggota himpunan kedua (Y).
+          
+            </p>
+            <br><br><br>
+
+<p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YSx4GjhvxGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+      
+       
+        
+    
+    <h2 style="margin:15px; ; text-align:left; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px" id="LATIHAN_RELASI">LATIHAN RELASI</h2> <br>
+      
+      	<ol type="1" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <li>Nyatakan relasi antara dua himpunan berikut dengan himpunan pasangan berurutan: <ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br>
+<li>A = { becak , mobil , kapal , pesawat terbang , kereta api , perahu } <br>
+B = { darat , laut , udara } <br>
+Aturan relasi: alat transportasi	<br><br></li>
+<li>b.	C = { 1 , 2 , 3 , 4 , 5 , 6 , 7 } <br>
+D = { 2 , 4 , 6 , 8 , 10 , 12 , 14 } <br>
+Aturan relasi: faktor prima dari <br><br></li></ol>
+
+<li>Himpunan pasangan berurutan berikut merupakan relasi dari himpunan A ke himpunan B. Daftarkan anggota himpunan A dan anggota himpunan B serta tulis aturan relasi yang mungkin. <br> <ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br>
+<li>ARB = { (kertas , padat) , (bensin , cair) , (oli , cair) , (oksigen , gas) , (batu , padat) } <br><br> </li> <li>
+ARB = { (7 , 3) , (6 , 2) , (5 , 1) , (4 , 0) , (3 , –1) , (2 , –2) , (1 , –3) } <br><br></li></ol></li>
+
+<li>Nyatakan relasi antara dua himpunan berikut dengan diagram panah: <br>
+	<ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br>
+<li>M = { Liputan 6 , Seputar Indonesia , Lintas 5 , Good News , Editorial Malam , Fokus , Reportase Sore , Redaksi Sore , Topik Petang , Berita Nasional , Sorot , Brutal } <br> 
+P = { RCTI , TPI , GlobalTV , SCTV , Indosiar , Lativi , METRO TV , TRANS , TRANS 7 , antv , TVRI } <br>
+Aturan relasi : program berita dari <br><br></li>
+<li>E = { x | –2 _ x < 5 , x Î bilangan bulat } <br>
+F = { y | 0 _ y _ 10 , y Î bilangan cacah } <br>
+Aturan relasi : tiga kurangnya dari</li></ol>
+<br></li>
+<li>Nyatakan relasi antara dua himpunan berikut dengan diagram Cartesius:<br>
+	<ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br><li>G = { nama-nama bulan dalam setahun pada tahun ini } <br>
+H = { 28 , 29 , 30 , 31 } <br>
+Aturan relasi: jumlah harinya <br><br></li><li>
+I = { bilangan asli kurang dari 10 } <br>
+J = { bilangan prima kurang dari 12 } <br>
+Aturan relasi: lebih dari	<br><br></li></ol></li>
+
+<li>Diketahui himpunan T = { 0 , 4 , 8 ,  12 , 16 , 20 , 24 , 28 }
+Relasi R dari himpunan T ke himpunan T dengan aturan “ kelipatan dari ” <br><ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br>
+<li>Nyatakan relasi R tersebut dengan himpunan pasangan berurutan<br><br></li>
+<li>Nyatakan relasi R tersebut dengan diagram panah<br><br></li>
+<li>Nyatakan relasi R tersebut dengan diagram cartesius</li></ol></li></ol>
+        </p>
+    
+        
+        
+    
+    <h2 style="margin:15px; ; text-align:left; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px" id="EVALUASI_RELASI">EVALUASI RELASI</h2>
+      <p style="text-align:justify; margin: 50px;font-family: Arial, Helvetica, sans-serif">Ayo, isi tabel dibawah ini! <br><br>
+Petunjuk Pengisian tabel : <br><br>
+Beri tanda centang pada kolom alternatif jawaban sesuai dengan pemahaman kamu! <br><br>
+KS	: Kurang Paham <br><br>
+CS	: Cukup Paham <br><br>
+S	: Paham <br><br>
+SS	: Sangat Paham
+<table  border="1" style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:center ">
+	<thead><tr>
+		<th rowspan="2">No</th>
+		<th rowspan="2">Pernyataan</th>
+		<th colspan="4">Alternatif Jawaban <tr><th>KS</th>
+		<th>CS</th><th>S</th><th>SS</th></tr></th>
+
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>1</td>
+		<td>Saya terlibat aktif dalam pembejaran Materi Relasi</td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Saya antusias mempelajari Materi Relasi</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>Saya merasa senang mempelajari Materi Relasi</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>Saya tidak berani untuk menyampaikan pendapat saya saat kegiatan pembelajaran berlangsung</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>Saya paham dengan Materi Relasi</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td>Saya mampu mengerjakan latihan pada materi relasi</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+
+</tbody>
+</table>
+<br>
+
+    
+    <h2 style="margin:15px; ; text-align:left; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px" id="RINGKASAN_RELASI">RINGKASAN RELASI</h2>
+      <p style="text-align:justify; margin: 50px;font-family: Arial, Helvetica, sans-serif">Relasi dari himpunan A ke himpunan B adalah aturan yang menghubungkan anggota-anggota himpunan A dengan anggota-anggota himpunan B. <br><br>
+Relasi antara dua himpunan X dan Y, dapat dinyatakan sebagai himpunan pasangan berurutan (x, y) dengan x anggota himpunan pertama (X) dan y anggota himpunan kedua (Y). <br>
+<br><br><hr>
+	 <br>
+        <br>
+
+      <h2 style="margin:50px; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px;" id="FUNGSI">FUNGSI</h2>
+        <h2 style="margin: 30px 50px; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" id="Pengertian_Fungsi_atau_Pemetaan">1.	Pengertian Fungsi atau Pemetaan</h2>
+         <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Perhatikan diagram panah berikut.
+          <br>
+          <br>
+          <img src="https://i.pinimg.com/564x/62/f2/7d/62f27d27ccc45bbb13ae0c0892002d83.jpg" style="position:relative; margin: auto" >
+          <br>
+          <br>
+          Pada Gambar, terdapat dua himpunan, yaitu himpunan A = {Dya, Dhea, Dhav, Dila, Diva} dan himpunan B = {A, B, O, AB}. Setiap anak anggota A dipasangkan dengan tepat satu golongan darah anggota B. 
+          <br><br> Bentuk relasi seperti ini disebut Fungsi atau Pemetaan. 
+Fungsi atau pemetaan adalah relasi khusus yang memasangkan setiap anggota satu himpunan dengan tepat satu anggota satu himpunan yang lain.
+
+          <br>
+          <br>
+      </p>
+              <h2 style="margin: 30px 50px; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" id="Domain,_Kodomain,_dan_Range_Fungsi">2.	Domain, Kodomain, dan Range Fungsi</h2>
+         <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Perhatikan fungsi yang dinyatakan sebagai diagram panah pada gambar di bawah. 
+          <br>
+          <br>
+          <img src="https://i.pinimg.com/564x/25/07/f2/2507f2efaa7466e6760e45e7f5ef1f86.jpg" style="position:relative; margin: auto" >
+          <br>
+          <br>
+          Pada fungsi tersebut, himpunan A disebut domain (daerah asal) dan himpunan B disebut kodomain (daerah kawan). Dari gambar tersebut, kamu juga memperoleh:
+          <br><br> •	2 ϵ B merupakan peta dari 1 ϵ A <br><br>
+•	3 ϵ B merupakan peta dari 2 ϵ A <br><br>
+•	4 ϵ B merupakan peta dari 3 ϵ A<br><br>
+Himpunan peta tersebut dinamakan range (daerah hasil). Jadi, dari diagram panah pada Gambar 6 diperoleh:<br><br>
+•	Domainnya (Df) adalah A = {1, 2, 3}.<br><br>
+•	Kodomainnya adalah B = {1, 2, 3, 4}.<br><br>
+•	Rangenya (Rf) adalah {2, 3, 4}.
+
+
+          <br>
+          <br>
+      </p>
+      <br>
+
+<p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VzPIODENTVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p> <br><br>
+      <h2 style="margin: 30px 50px; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" id="Grafik_Fungsi">3.	Grafik Fungsi</h2>
+         <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">
+          <img src="https://i.pinimg.com/564x/54/13/bd/5413bd04e3d5633ca806dd2a2522304a.jpg" style="position:relative; margin: auto" >
+          <br>
+          <br>
+          Perhatikan kembali Gambar. Aturan yang memetakan himpunan A ke himpunan B pada gambar tersebut adalah untuk setiap x anggota A dipetakan ke (x + 1) anggota B. Suatu fungsi dinotasikan dengan huruf kecil, seperti f, g, atau h. Jika fungsi pada Gambar dinamakan f maka fungsi tersebut dinotasikan dengan f: x ϵ x + 1 (dibaca: fungsi f memetakan x ke x + 1). Dengan demikian, pada pemetaan f: x ϵ x + 1 dari himpunan A ke himpunan B diperoleh.<br><br>
+Untuk x = 1, f: 1 → 1 + 1 atau f: 1 → 2 sehingga (1, 2) ϵ f,<br><br>
+Untuk x = 2, f: 2 → 2 + 1 atau f: 2 → 3 sehingga (2, 3) ϵ f,<br><br>
+Untuk x = 3, f: 3 → 3 + 1 atau f: 3 → 4 sehingga (3, 4) ϵ f.<br><br>
+Untuk memudahkan cara menulis atau membaca, suatu pemetaan dapat dituliskan dalam bentuk tabel atau daftar. Untuk fungsi f : x → x + 1, tabelnya adalah sebagai berikut.
+</p>
+          <br>
+          <br>
+          <table border= "1px" style="margin:auto; font-size: 20px ">
+      
+            <tbody>
+              <tr style="text-align:center">
+                <td>x</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+             
+              </tr>
+
+              <tr style="text-align:center">
+                <td>x+1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                
+              </tr>
+
+              <tr>
+                <td>(Pasangan Berurutan)</td>
+                <td>(1,2)</td>
+                <td>(2,3)</td>
+                <td>(3,4)</td>
+                
+              </tr>
+
+            </tbody>
+
+          </table>
+          <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">
+          <br><br>
+                    <img src="https://i.pinimg.com/564x/b9/18/af/b918af90290286187611aa4d285f8768.jpg" style="position:relative; margin: auto" >
+          <br><br></p>
+          <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">
+          	Dengan menggunakan pasangan-pasangan berurutan yang diperoleh pada Tabel dapat digambar graﬁk Cartesius untuk fungsi f: x → x + 1 seperti tampak pada Gambar.<br><br>
+Gambar merupakan graﬁk Cartesius fungsi f: x → x + 1 dengan domain Df = A = {1, 2, 3,}, kodomain B = {1, 2, 3, 4} dan Range Rf = {2, 3, 4} yang digambarkan dengan noktah-noktah. Jika domain dan kodomainnya diperluas pada himpunan bilangan riil, rangenya ditunjukkan dengan garis yang melalui noktah-noktah seperti pada Gambar.<br><br>
+
+
+      </p>
+      
+      <h2 style="margin: 30px 50px; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" id="Notasi_Fungsi">4.	Notasi Fungsi</h2>
+         <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Fungsi dinotasikan dengan huruf kecil, seperti f, g, atau h. Pada fungsi f dari himpunan A ke himpunan B, jika x ϵ B maka peta atau bayangan x oleh f dinotasikan dengan f (x). 
+          <br>
+          <br>
+          <img src="https://i.pinimg.com/564x/62/3b/08/623b084ce8f1a90ee168f0d732ff7a9b.jpg" style="position:relative; margin: auto" >
+          <br>
+          <br>
+          Perhatikan Gambar. Gambar tersebut menunjukkan fungsi himpunan A ke himpunan B menurut aturan f : x → 2x + 1. Pada gambar, dapat dilihat bahwa x merupakan anggota domain f. Fungsi f : x  → 2x + 1 berarti fungsi f memetakan x ke 2x + 1. Oleh karena itu, bayangan x oleh fungsi f adalah 2x + 1. Jadi, dapat dikatakan bahwa f (x) = 2x + 1 adalah rumus untuk fungsi f. <br><br>
+Jika fungsi f : x → ax + b dengan x anggota domain f, rumus fungsi f adalah f (x) = ax + b.
+
+          <br>
+          <br>
+      </p>
+      <h2 style="margin: 30px 50px; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" id="Nilai_Fungsi">5.	Nilai Fungsi</h2>
+         <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Cara menghitung nilai fungsi yaitu : <br><br>
+
+<p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:center;">
+<iframe scrolling="no" title="Nilai Fungsi" src="https://www.geogebra.org/material/iframe/id/nsd3x8v5/width/1341/height/567/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1000px" height="430px" style="border:0px;"> </iframe></p><br><br>
+<p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Contoh : <br><br>
+
+Diketahui fungsi f: x → 2x – 2 pada himpunan bilangan bulat. Tentukan: <br><ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br>
+<li>f (1),<br><br></li>
+<li>f (2),<br><br></li>
+<li>bayangan (–2) oleh f, <br><br></li>
+<li>nilai f untuk x = –5, <br><br></li>
+<li>nilai x untuk f (x) = 8, <br><br></li>
+<li>nilai a jika f (a) = 14. <br><br></li></ol></p>
+<p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Jawab : <br><br>
+Diketahui f: x → 2x – 2 pada himpunan bilangan bulat. Dengan demikian rumus fungsinya f (x) = 2x –2. <br><ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br>
+<li>f (1) = 2 (1) – 2 = 0 <br><br></li>
+<li>f (2) = 2 (2) – 2 = 2 <br><br></li>
+<li>Bayangan (–2) oleh f sama dengan f (–2). <br>
+Jadi, f (–2) = 2 (–2) – 2 = –6<br><br></li>
+<li>Nilai f untuk x = –5 adalah f (–5) = 2 (–5) – 2 = –12
+e.	Nilai x untuk f (x) = 8 adalah 2x – 2 = 8<br>
+2x = 8 + 2<br>
+2x = 10<br>
+x = 5<br><br></li>
+<li>Nilai a jika f (a) = 14 adalah 2a – 2 = 14<br>
+2a = 14 + 2<br>
+2a = 16<br>
+a = 8</li></ol>
+
+
+     
+      </p>
+      <h2 style="margin: 30px 50px; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" id="Rumus_Fungsi">6.	Rumus Fungsi</h2>
+         <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Suatu fungsi dapat ditentukan rumusnya jika nilai data diketahui.<br><br>
+Contoh :<br><br>
+Fungsi h pada himpunan bilangan riil ditentukan oleh rumus h(x) = a x + b, dengan<br><br>
+a dan b bilangan bulat. Jika h(–2) = –4 dan h(1) = 5, tentukan:
+<ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br><li>nilai a dan b,<br><br></li>
+<li>rumus fungsi tersebut.<br><br> </li> </ol></p>
+<p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Jawab :<br><br>
+h(x) = ax +b<ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br>
+<li>Oleh karena h(–2) = –4 maka h(–2) = a(–2) + b = –4<br>
+–2a + b = –4 …(1)<br>
+h(1) = 5 maka h(1) = a (1) + b = 5<br>
+a + b = 5<br><br>
+b = 5 – a …(2) Substitusikan persamaan (2) ke persamaan (1), diperoleh:<br>
+–2a + b = –4<br>
+–2a + (5 – a) = –4<br>
+–2a + 5 – a = –4 <br>
+–3a + 5 = –4<br>
+–3a = –9<br>
+a = 3<br><br>
+Substitusikan nilai a = 3 ke persamaan (2), diperoleh<br>
+b = 5 – a<br>
+= 5 – 3 = 2<br>
+Jadi, nilai a sama dengan 3 dan nilai b sama dengan 2.<br><br></li>
+<li>Oleh karena nilai a = 3 dan nilai b = 2, rumus fungsinya adalah h(x) = 3x + 2.
+</li></ol>
+</p>
+
+    
+    <h2 style="margin:15px; ; text-align:left; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px" id="LATIHAN_FUNGSI">LATIHAN FUNGSI</h2>
+      <ol type="1" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br><li>Diketahui fungsi f: x → 4x – 1 pada himpunan bilangan bulat. Tentukan nilai dari: <br><ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br>
+<li>f (3)	<br><br></li>
+<li>f (–3)	<br><br></li>
+<li>f (5)	<br><br></li></ol></li>
+
+<li>Fungsi g ditentukan oleh g(x) = –5x + 1 pada himpunan bilangan bulat. Tentukan:<br><ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br>
+<li>bayangan 2 pada g,<br><br></li>
+<li>nilai g (0),<br><br></li>
+<li>nilai g jika x = – 1,<br><br></li>
+<li>nilai x jika g(x) = – 14,<br><br></li>
+<li>nilai a jika g(a) = 21.<br><br></li></ol></li>
+
+<li>Suatu fungsi f dinyatakan oleh f: x → 4 – x.<br>
+Jika domainnya {–2, –1, 0, 1, 2}, tentukan range fungsi tersebut.<br><br></li>
+
+<li>Fungsi h ditentukan oleh h(x) = x2 + 2 dengan x berubah pada bilangan riil. Jika range fungsi h adalah {18, 27, 38, 51}, tentukan domain fungsi h.<br><br></li>
+
+<li>Diketahui fungsi f(x) = –2x2 + 5 pada himpunan bilangan bulat. Jika f(a) = – 3, tentukan nilai a.<br><br></li>
+
+<li>Suatu fungsi f dirumuskan oleh f: x → 1 (x + 3) pada 2 bilangan bulat. Tentukan nilai b jika f (b) = 4.<br><br></li>
+
+<li>
+Diketahui g = x2 – 4 pada himpunan bilangan bulat.<br>
+<ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br><li>Gambarlah graﬁk fungsi tersebut.<br><br></li>
+<li>Dari graﬁk yang telah kamu buat, berapakah nilai x jika g(x) = 12?<br><br></li></ol></li>
+
+<li>Gambarlah graﬁk fungsi h: x → 5 – 7x pada bidang Cartesius dengan domain dan kodomainnya himpunan bilangan riil.<br><br></li>
+	
+<li>Fungsi f ditentukan oleh f(x) = ax + b. Jika f(2) = 12 dan f (–3) = – 23, tentukan:<br><ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px"> <br><li>nilai a dan b,	<br><br></li>
+<li>rumus fungsi tersebut. <br><br></li></ol></li>
+	
+<li>Diketahui fungsi f(x) = px + 5. Jika f(7) = 2, tentukan nilai p.
+</li></ol>
+
+   
+    <h2 style="margin:15px; ; text-align:left; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px" id="EVALUASI_FUNGSI">EVALUASI FUNGSI</h2>
+      <p style="text-align:justify; margin: 50px;font-family: Arial, Helvetica, sans-serif">Ayo, isi tabel dibawah ini! <br><br>
+Petunjuk Pengisian tabel : <br><br>
+Beri tanda centang pada kolom alternatif jawaban sesuai dengan pemahaman kamu! <br><br>
+KS	: Kurang Paham <br><br>
+CS	: Cukup Paham <br><br>
+S	: Paham <br><br>
+SS	: Sangat Paham
+<table  border="1" style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:center ">
+	<thead><tr>
+		<th rowspan="2">No</th>
+		<th rowspan="2">Pernyataan</th>
+		<th colspan="4">Alternatif Jawaban <tr><th>KS</th>
+		<th>CS</th><th>S</th><th>SS</th></tr></th>
+
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>1</td>
+		<td>Saya terlibat aktif dalam pembejaran Materi Fungsi</td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Saya antusias mempelajari Materi Fungsi</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>Saya merasa senang mempelajari Materi Fungsi</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>Saya tidak berani untuk menyampaikan pendapat saya saat kegiatan pembelajaran berlangsung</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>Saya paham dengan Materi Fungsi</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td>Saya mampu mengerjakan latihan pada materi Fungsi</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+
+</tbody>
+</table>
+<br>
+
+
+    
+    <h2 style="margin:15px; ; text-align:left; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px" id="RINGKASAN_FUNGSI">RINGKASAN FUNGSI</h2>
+      <p style="text-align:justify; margin: 50px;font-family: Arial, Helvetica, sans-serif">Fungsi dari himpunan A ke himpunan B adalah relasi yang menghubungkan setiap anggota himpunan A dengan tepat satu anggota himpunan B. <br><br>
+Jika f adalah fungsi A ke B, maka A disebut daerah asal (domain), B disebut daerah kawan (kodomain.) Himpunan anggota B yang mempunyai prapeta disebut daerah hasil (range). <br>
+<br><br></p><hr>
+
+<h2 style="margin:15px; ; text-align:left; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px" id="DAFTAR_PUSTAKA">DAFTAR PUSTAKA</h2>
+      <p style="text-align:justify; margin: 50px;font-family: Arial, Helvetica, sans-serif">Agus, N. A. (2007). Mudah Belajar Matematika 2. Jakarta: Pusat Perbukuan, Departmen Pendidikan Nasional.<br><br>
+Endah Budi Rahaju, R. S. (2008). Matematika Sekolah Menengah Pertama Kelas VIII. Jakarta: Pusat Perbukuan, Departmen Pendidikan Nasional.<br>
+<br><br></p><hr>
+
+
+
+
+</body>
+</html>
